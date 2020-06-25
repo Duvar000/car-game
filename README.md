@@ -2,8 +2,8 @@
 
 car game in python
 
-library
+library;
 
 ```
-pip install py game
+pip install pygame
 ```
