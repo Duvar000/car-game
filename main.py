@@ -79,8 +79,8 @@ pygame.time.set_timer(a, 1000)
 #title
 def title():
   while True:
-    screen.fill((255,255,255))
-    screen.blit(play , (0,0))
+    screen.fill((0,255,255))
+    screen.blit(play , (90,300))
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
@@ -114,7 +114,7 @@ def main():
 
     if pygame.sprite.spritecollideany(player, enemies):
         screen.fill((255,0,0))
-        screen.blit(game_over, (25,300))
+        screen.blit(game_over, (125,300))
         pygame.display.update()
         time.sleep(2)
         for entity in all_sprites:
