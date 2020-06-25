@@ -1,5 +1,8 @@
 # car-game
+
 car game in python
+
 library
-```pip install py game
+
+```pip install py game```
 
